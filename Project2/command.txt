@@ -1,0 +1,36 @@
+nmap -sT --top-ports 10 synprint.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-18 19:37 EST
+Nmap scan report for synprint.com (192.241.168.54)
+Host is up (0.0086s latency).
+
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   open     ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+80/tcp   open     http
+110/tcp  filtered pop3
+139/tcp  filtered netbios-ssn
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+3389/tcp filtered ms-wbt-server
+
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+
+
+
+---------------------------------------------------------------------------------------------
+nmap -oN 02212020_nmap.pcap -sT --top-ports 10 synprint.com
+
+
+'''
+# perform nc command in terminal to find the application of each port
+# returns application name (http, https, ssh ...)
+def net_cat(ip, port_target):
+    command = "nc -z " + ip + " " + port_target
+    result = commands.getoutput(command)
+    marker1 = result.find('/') + 1
+    marker2 = result.find(']')
+    return result[marker1:marker2]
+'''
