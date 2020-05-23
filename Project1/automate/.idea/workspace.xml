@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20caf77-5ffd-4030-adcd-0a506690af36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Project2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/.idea/Project2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/.idea/portscanner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project2/portscanner/portscanner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,6 +179,8 @@
       <workItem from="1582334527992" duration="8000" />
       <workItem from="1582434223340" duration="28000" />
       <workItem from="1582434258239" duration="1000" />
+      <workItem from="1584045436420" duration="16000" />
+      <workItem from="1584117865095" duration="15000" />
     </task>
     <servers />
   </component>
